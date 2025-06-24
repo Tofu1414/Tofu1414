@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Water Quality</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Schools</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="Map2.html">Population Density</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="Map3.html">PA 2020 Election</a></li>
                     </ul>
@@ -35,13 +35,12 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('pexels-steve-861414.jpg')">
+        <header class="masthead" style="background-image: url('Schools.png')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="post-heading">
-                            <h1>Water Quality in Michigan </h1>
-                            <h2 class="subheading">Investigating Areas at High Risk of Lead Pollution</h2>
+                            <h1>Schools in Philadelphia </h1>
                             <span class="meta">
                             </span>
                         </div>
@@ -55,30 +54,42 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-12">
                         <h2 class="section-heading">Problem</h2>
-                        <p>Which populations are at the highest risk for dangerous drinking water in Michigan? Specifically, areas that are within:</p>
-                        <ol type="1">
-                          <li>0.3 miles of a TRI facility with water pollution over 10,000 tons</li>
-                          <li>0.3 miles of a river</li>
-                          <li>0.2 miles with water service lines made of lead.</li>
-                        </ol>
+                        <p>What neighborhoods contain Philadelphia School District schools that both enroll more than 1,200 students and are also within 0.1 mile of the bike network?</p>
                         <h3 class="section-heading">Solution</h3>
-                        <p>The only place in the State that matched all these criteria was Flint, MI. </p>
-                       <img src="Lead.png" 
+                            <p>The following schools enroll more than 1,200 students and are also within 0.1 mile of the bike network:</p>
+                             <p> <ol type="1">
+                          <li>Baldi, C. C. A.</li>
+                          <li>Central</li>
+                          <li>Frank, Anne</li>
+                         <li>Frankford High School</li>
+                        <ki>Solis-Cohen, Solomon</ki>
+                        </ol>
+                        </p>
+
+                        <p>The following neighborhoods contain the schools: </p>
+`                               <p> <ol type="1">
+                          <li>Bustleton</li>
+                          <li>Castor Gardens</li>
+                          <li>Logan</li>
+                         <li>Northwood</li>
+                        </ol>
+                        </p>
+
+                       <img src="Schools.png" 
      class="img-fluid" 
      style="display: block; margin-left: auto; margin-right: auto; max-width: 50%; height: auto;" 
      alt="..." />
                         <h4 class="section-heading">Importance</h4>
-                        <p>Investigating who is at risk for contaminated water is crucial because the safety of tap water is generally considered a given by the general public. The responsibility to ensure that water is safe falls primairly on policymakers and regulators though academics and advocacy groups have a roll to play as well.<p>
+                        <p>Getting their child to school can be a big challenge for many families. For instance, their work schedule may not line up with the school start time or they may not have a working vehicle. Ensuring that schools are near bike networks, allows children to safely get to school on their own, provided they are old enough. This alleviates some of the burden on busy families. Also, commuting by bike is much more sustainable than driving a child to school, which is particularly important in large schools.<p>
                         </p> Creating maps and visualizations that highlight dangerous areas enables regulators to take appropriate actions and informs residents about the quality of their water.</p>
                         <h5 class="section-heading">Selected Skills</h5>
                         <p>
                         <ol>
-                          <li><b>Geospatial Data Managment</b> <i>Keeping datasets organized and ensuring that they are in a Coordinate Reference System that helps solve the problem.</i>
-                          <p>To convert from one CRS to another I went to the map properties tab and selected the applicable CRS. To change the CRS of the shapefile I used the Project Tool on the Geoprocessing tab.</p></li>
-                          <li><b>Spatial Analysis and Environmental Mapping</b> <i>Using GIS tools to create maps about communities and the environment</i>
-                          <p>I used techniques like buffering, intersecting, and selecting attributes to answer questions about our communities that inform decision making</p></li>
+                          <li><b>Preparing and Managing the Project</b> <i>Ensuring that the project is set up for success and that files will not get lost or damaged.</i>
+                          <p>I acquired skills in organization, workspace maintenance, and data management essential for executing a GIS project. It is imperative to consistently uphold these practices and integrate new components into the project systematically as it progresses. The significance of this skill became evident when my initial attempts at the lab did not yield the correct results. After experiencing frustration, I methodically reviewed my approach, ensuring greater organization, which ultimately led to achieving the correct solution.</p></li>
+                          <li><b>Using GIS Tools and Basic Queries</b> <i>Using Queries to sort, filter, and analyze data.</i>
+                          <p>I learned basic queries like “sort by attribute” and “sort by location,” which helped me identify elements in Philadelphia such as bike lanes, neighborhoods, and schools. This enabled me to explore their relationships. To get the right information, consider how elements relate: are they contained within each other, do they intersect, or are they a certain distance apart? After identifying the relationship, I plan the necessary steps and queries.</p></li>
                           <li><b>Data Integration and Relationship Mapping</b> <i>Joining multiple datasets to build spatial layers that have the needed information.</i>
-                          <p>I joined multiple datasets to create the map of areas at high risk of lead contamination in tap water. This is important because datasets don’t always come perfectly prepared with all the correct fields. Being able to customize datasets is very important for analysis.</p></li>
                         </ol>
                         </p>
                     </div>
